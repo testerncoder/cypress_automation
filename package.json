@@ -1,0 +1,40 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "automation using cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-dotenv": "^1.1.1",
+    "cypress-wait-until": "^1.6.1",
+    "merge-dirs": "^0.2.1"
+  },
+  "devDependencies": {
+    "@cypress/schema-tools": "4.7.3",
+    "babel-eslint": "^10.1.0",
+    "custom-template-generator": "^0.1.2",
+    "cypress": "4.7.0",
+    "dotenv": "^8.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-watch": "^6.0.1",
+    "prettier": "^1.19.1",
+    "ts-node": "8.6.2",
+    "typescript": "3.8.2"
+  },
+  "scripts": {
+    "test": "npm run build && cypress open --env configFile=test",
+    "uat": "npm run build && cypress open --env configFile=uat",
+    "lint": "eslint cypress/integration --fix",
+    "build": "tsc || true"
+  },
+  "keywords": [
+    "cypress",
+    "automation"
+  ],
+  "author": "Nidhi Sachan",
+  "license": "ISC"
+}

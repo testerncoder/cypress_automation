@@ -1,0 +1,13 @@
+{
+  "PageTitle": "Brands",
+  "PageUrl": "Brand",
+  "searchBrand": {
+    "Name": "135mm Stock",
+    "Id": 1907,
+    "Status": "All"
+  },
+  "newBrand": {
+    "PageTitle": "Create new brand",
+    "PageUrl": "Brand/entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2015", "es2016", "dom"],
+    "outDir": "./cypress/tscompiled/schemas",
+    "skipLibCheck": true,
+    "pretty": true
+  },
+  "include": [
+    "./cypress/schemas/*",
+    "cypress/schemas/api.schema.example/api.sample.{itemnumber}.example.ts",
+    "cypress/schemas/api.schema/api.v2.sample.schema.ts"
+  ]
+}

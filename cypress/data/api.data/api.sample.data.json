@@ -1,0 +1,21 @@
+{
+  "endPoint": "api/sample",
+  "headers": "TOKEN",
+  "body": {
+    "ExtractTime": "2020-02-26T00:08:51.345Z",
+    "ItemNumber": 1370011,
+    "RegionPrices": [
+      {
+        "RetailZone": "CODE",
+        "Region": "ACT",
+        "Price": 20.0,
+        "IsMarkdown": true,
+        "RegularPrice": 19.99,
+        "TeamMemberPrice": 19.0
+      }
+    ]
+  },
+  "testData": {
+    "ResponseTimeMaxLimit": 8000
+  }
+}

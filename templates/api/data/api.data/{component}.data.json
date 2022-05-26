@@ -1,0 +1,10 @@
+{
+  "endPoint": "",
+  "headers": "",
+  "schemaName": "",
+  "schemaVersion": "",
+  "body": {},
+  "testData": {
+    "ResponseTimeMaxLimit": 5000
+  }
+}

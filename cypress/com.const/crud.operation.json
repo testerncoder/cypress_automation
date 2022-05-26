@@ -1,0 +1,6 @@
+{
+  "CREATE": "CREATE",
+  "READ": "VIEW",
+  "UPDATE": "UPDATE",
+  "DELETE": "DELETE"
+}
